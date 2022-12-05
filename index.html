@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<TITLE> Анкета пользователя </title>
+</head>
+<BODY bgcolor="silver">
+	<FORM>
+		<H3> Анкета пользователя</h3>
+		<TABLE>
+			<TR> <TD> Имя: </td>
+			<TD> <INPUT TYPE = "name" NAME = "name" SIZE = "30"></td>
+			<TD> Никнейм </td>
+			<TD> <INPUT TYPE = "text" NAME = "name" SIZE = "10"></tr>
+			<TR> <TD> Фамилия: </td>
+			<TD><INPUT TYPE = "name" NAME = "name" SIZE = "30"></td></td>
+			<TD> Пароль: </TD>
+			<TD><INPUT TYPE = "password" NAME = "name" SIZE = "10"></td></tr>
+			<TR><TD> Улица: </td>
+			<TD><INPUT TYPE = "name" NAME = "street1" SIZE = "30"></td>
+			<TD> Подтверждение:</td>
+			<TD> <INPUT TYPE = "password" NAME = "name" SIZE = "10"></td></tr>
+			<TR><TD> Город: </td>
+			<TD><INPUT TYPE = "text" NAME = "sity" SIZE = "30"></td>
+			<TD> Дом, квартира: </td>
+			<TD><INPUT TYPE = "text" NAME = "street2" SIZE = "10"></td></tr>
+			<TR><TD> Область: </td>
+			<TD><INPUT TYPE = "text" NAME = "state" SIZE = "30"></td>
+			<TD> Индекс: </td>
+			<TD><INPUT TYPE = "name" NAME = "zip" SIZE = "10"></td></tr>
+		</table>
+
+		<H4> Укажите свои увлечения</h4>
+		<FORM name="select_hobby" action="/cgi-bin/hobby.cgi" metod="get">
+			<INPUT type="checkbox" name="hobby" value="computers"> Компьютеры
+			<INPUT type="checkbox" name="hobby" value="art"> Литература
+			<INPUT type="checkbox" name="hobby" value="music"> Музыка
+			<INPUT type="checkbox" name="hobby" value="avto"> Автомобили
+			<INPUT type="checkbox" name="hobby" value="sport"> Спорт
+		</form>
+		<a href="zachet.html">Зачетная книжка</a>
+		<FORM>
+			<BR> Комментарий:
+			<BR>
+			<TEXTAREA	name="comment"	rows=6	cols=23>Ваш	комментарий...
+			</textarea>
+		</form>
+
+		<INPUT type ="submit" value="Отправить">
+		<INPUT type="reset" value="Очистить">
+	</form>
+</body>
+</html>

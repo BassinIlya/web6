@@ -1,0 +1,48 @@
+.bloc{
+	flex-direction: column;
+	width: 500px;
+	padding: 10px;
+	line-height: 3.5;
+}
+.field {
+	border: none;
+    margin: 5px;
+    height: 30px;
+    width: 97%;
+    background-color: #F1F1F1;
+	border-radius: 3px;
+	padding-left: 10px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.zagolovor{
+	font-family: Arial, sans-serif;
+	margin: 5px;
+    font-weight: bold;
+}
+.textarea {
+	padding-top: 10px;
+	height: 70px;
+	resize: none;
+}
+.explan{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+.bottom{
+	width: 100px;
+	height: 30px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	background-color: #000000;
+}
+.check{
+	border-color: #F1F1F1;
+}
+::-webkit-input-placeholder{
+	font-family: Arial, sans-serif;
+	color: #CECECE;
+}
